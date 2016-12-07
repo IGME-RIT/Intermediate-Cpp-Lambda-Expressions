@@ -1,9 +1,8 @@
-# Intermediate C++: Function Pointers
+# Intermediate C++: Lambda Expressions
 
-Function pointers are another way to solve the problem that functors solve.
-While fuctors only exist in C++, function pointers exist in C, and are frequently used for callbacks.
-This example covers the basics of declaring/using function pointers and their syntax.
-It also shows usage of function pointers for member functions.
+Lambda Expressions are just a shorthand way of passing functors around.
+With functors, you must define the class, create an object, and then use that object.
+With Lambda Expressions, the object is defined as it is initialized, which can make your code easier to read.
 
 # Setup
 
