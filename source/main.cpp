@@ -100,7 +100,7 @@ int main()
         cout << "smaller of 2 and 3: " << smaller << endl;
 
 
-        int thing;
+        int thing = 0;
         cout << "thing: " << thing << endl;
         auto setThing = [&a = thing](int b) { a = b; };                 // You can use references inside the capture clause too!
         setThing(2);
